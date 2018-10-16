@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <indi.aljet.mystepview_master.stepview.VerticalStepViewIndicator
+        android:id="@+id/steps_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--  还要注意这个layout_width height wrap_content match_parent 写错了 就显示不出来了 -->
+    <RelativeLayout
+        android:id="@+id/rl_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"/>
+
+
+</LinearLayout>
